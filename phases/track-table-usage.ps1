@@ -99,10 +99,4 @@ while(1)
     start-sleep -seconds $polling_interval
 }
 
-
-
-
 Write-Output "Processing track-table-usage is complete!"
-#SeniorHelpers
-#.\track-table-usage.ps1 -servername "CUSPVIMHMDBS01" -databasename "SeniorHelpers" -stat_tracking_db "SonetoMaster" -polling_interval 20
-
